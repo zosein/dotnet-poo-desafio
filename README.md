@@ -16,12 +16,11 @@ Foram criadas as classes de acordo com o diagrama abaixo:
 3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
 
 ## Solução
-    - A classe Smartphone é abstrata, não permitindo instanciá-la diretamente.
-    - As classes Nokia e iPhone herdam da classe Smartphone e implementam o método InstalarAplicativo() de forma específica para cada marca.
-    - O programa principal cria instâncias de Nokia e iPhone e chama o método InstalarAplicativo() para cada um, demonstrando o comportamento individual de cada marca.
+- A classe Smartphone é abstrata, não permitindo instanciá-la diretamente.
+- As classes Nokia e iPhone herdam da classe Smartphone e implementam o método InstalarAplicativo() de forma específica para cada marca.
+- O programa principal cria instâncias de Nokia e iPhone e chama o método InstalarAplicativo() para cada um, demonstrando o comportamento individual de cada marca..
 
 Benefícios da Orientação a Objetos:
-
-    - Reuso de código: A classe abstrata Smartphone define a estrutura básica para todos os tipos de smartphones, evitando duplicação de código.
-    - Manutenção facilitada: Mudanças no comportamento de instalação de aplicativos podem ser feitas em cada classe específica, sem afetar as outras.
-    - Extensibilidade: Novas marcas e modelos de smartphones podem ser facilmente adicionados ao sistema criando novas classes filhas de Smartphone.
+- A classe Smartphone é abstrata, não permitindo instanciá-la diretamente.
+- As classes Nokia e iPhone herdam da classe Smartphone e implementam o método InstalarAplicativo() de forma específica para cada marca.
+- O programa principal cria instâncias de Nokia e iPhone e chama o método InstalarAplicativo() para cada um, demonstrando o comportamento individual de cada marca.
